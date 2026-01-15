@@ -1,58 +1,57 @@
 # AI in Film Editing – Emotion-Driven Cinematic Montage
 
-This project explores how **rule-based artificial intelligence systems** can be used to support
-creative decision-making in film editing. The system focuses on **emotion-aware cinematic montage
-generation**, where editing rhythm, pacing, and sequencing are adapted to convey different
-psychological states such as anxiety, memory recall, and emotional neutrality.
+This project investigates how **artificial intelligence principles can be applied
+to creative film editing**, with a focus on emotion-aware cinematic montage design.
+The system explores how editing rhythm, sequencing, and temporal structure can be
+algorithmically adapted to represent different psychological and emotional states.
 
-Rather than relying on data-heavy machine learning models, this project demonstrates a
-**deterministic creative AI approach**, in which cinematic rules encode emotional intent.
-The goal is to show how AI can function as a **creative collaborator**, assisting filmmakers
-and storytellers without replacing human authorship.
+Rather than using data-intensive machine learning models, the project adopts a
+**rule-based creative AI approach**, where cinematic editing rules are explicitly
+designed to encode emotional intent. This choice emphasizes transparency, creative
+control, and responsible use of AI in artistic workflows.
 
 ---
 
 ## Main Evaluation File
 - **AI_in_Film_Editing.ipynb**
 
+The Jupyter Notebook serves as the **single source of truth** for evaluation and
+presents the complete system in a structured, narrative format.
+
 ---
 
-## Project Overview
-
-The Jupyter Notebook presents a complete end-to-end system design, including:
+## What the Notebook Covers
 
 - **Problem Definition & Objective**  
-  Identifying the lack of emotion-aware logic in automated video editing tools.
+  Motivation for emotion-aware editing in automated and AI-assisted film workflows.
 
 - **Selected Project Track**  
   Creative AI / Media Systems.
 
 - **Data Understanding & Preparation**  
-  Use of short video clips as narrative fragments, with emotion treated as a symbolic input
-  rather than inferred psychological data.
+  Use of short video clips as narrative fragments, with emotion treated as a symbolic
+  input rather than inferred personal data.
 
 - **Model / System Design**  
-  A rule-based montage architecture where different emotional states map to distinct editing
+  A rule-based montage architecture mapping emotional states to distinct editing
   strategies (e.g., interruptions, reversals, continuity).
 
 - **Core Implementation**  
-  Programmatic sequencing logic that assembles clips according to the selected emotional state.
+  Programmatic logic for assembling cinematic montages based on the selected emotion.
 
 - **Evaluation & Analysis**  
-  Qualitative analysis of how editing patterns communicate emotional tone and narrative intent.
+  Qualitative analysis of how different editing patterns communicate emotional tone.
 
 - **Ethical Considerations & Responsible AI**  
-  Discussion of creative agency, transparency, and the avoidance of emotion inference or
-  psychological profiling.
+  Discussion of creative agency, transparency, and avoidance of psychological profiling.
 
 - **Conclusion & Future Scope**  
-  Reflection on limitations and potential extensions, including richer emotional vocabularies
-  and adaptive editing systems.
+  Reflection on limitations and potential extensions of emotion-aware editing systems.
 
 ---
 
 ## Execution Note
 
-Due to execution constraints in hosted notebook environments, video rendering is simulated using
-mock objects. The system logic, sequencing rules, and emotional mappings reflect the original
-MoviePy-based implementation developed during prototyping.
+Due to execution constraints in hosted notebook environments, video rendering is
+simulated using mock objects. The system logic and sequencing rules reflect the
+original MoviePy-based implementation developed during prototyping.
